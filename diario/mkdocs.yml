@@ -1,0 +1,29 @@
+site_name: Python & Coffee
+
+nav:
+  - Home: index.md
+  - Web Scraping: web_scraping/web-scraping.md
+
+
+theme: 
+  name: material
+  palette:
+    scheme: default
+    primary: brown
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: pt
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+      name: squidfunk on Twitter
+
+markdown_extensions:
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
